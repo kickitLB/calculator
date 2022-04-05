@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div id="display">
+      <p id="displayResult"></p>
+    </div>
+    <div class="buttons">
+      <div class="row" id="rowOne">
+        <button id="clear" type="submit">C</button>
+        <button class="numberBtn" id="7" type="submit">7</button>
+        <button class="numberBtn" id="4" type="submit">4</button>
+        <button class="numberBtn" id="1" type="submit">1</button>
+        <div></div>
+      </div>
+      <div class="row" id="rowTwo">
+        <div></div>
+        <button class="numberBtn" id="8" type="submit">8</button>
+        <button class="numberBtn" id="5" type="submit">5</button>
+        <button class="numberBtn" id="2" type="submit">2</button>
+        <button class="numberBtn" id="0" type="submit">0</button>
+      </div>
+      <div class="row" id="rowThree">
+        <button id="delete" type="submit">Del</button>
+        <button class="numberBtn" id="9" type="submit">9</button>
+        <button class="numberBtn" id="6" type="submit">6</button>
+        <button class="numberBtn" id="3" type="submit">3</button>
+        <button id="decimal" type="submit">.</button>
+      </div>
+      <div class="row" id="rowFour">
+        <button class="operatorBtn" id="/" type="submit">/</button>
+        <button class="operatorBtn" id="x" type="submit">x</button>
+        <button class="operatorBtn" id="-" type="submit">-</button>
+        <button class="operatorBtn" id="+" type="submit">+</button>
+        <button id="equalsBtn" id="=" type="submit">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="/calculator.js"></script>
+</body>
+</html>
